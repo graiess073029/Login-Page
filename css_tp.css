@@ -1,0 +1,85 @@
+body{background-color: #ccffcc;}
+img.bg{width: 700px;
+    height: 700px;
+    position: relative;
+    left: 690px;
+    bottom: 660px;}
+
+.test_form{
+    background-color: white;
+    width: 500px;
+    height: 700px;
+    position: relative;
+    top: 40px;
+    left: 50px;
+    border: 1px solid #052f5f;
+    border-radius: 5px 10px 0 5px;
+    border-radius: 5px 10px 5px 10px;
+}
+
+div.buttons_div{
+    width: 500px;
+    height: 600px;
+}
+div.console{
+    background-color: whitesmoke;
+    width: 400px;
+    height: 90px;
+    position: relative;
+    font-size: 40px;
+    top: 20px;
+    left: 50px;
+    border: 1px solid #052f5f;
+    border-radius: 5px 10px 0 5px;
+    border-radius: 5px 10px 5px 10px;}
+
+p.console_text{
+    font-size: 40px;
+    position: relative;
+    left: 20px;
+    bottom: 20px;
+}
+
+
+
+button.number{
+    width: 80px;
+    height: 80px;
+    font-size: 40px;
+    background-color: lightskyblue;
+    position: relative;
+    top: 40px;
+    left: 45px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+
+
+button.level{
+    width: 80px;
+    height: 80px;
+    font-size: 40px;
+    background-color: lightyellow;
+    position: relative;
+    top: 40px;
+    left: 45px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#check{background-color: lightsalmon;width: 175px;}
+#delete{background-color: lightcoral;}
+#zero{width: 175px;}
+
+button.operator{
+    width: 80px;
+    height: 80px;
+    background-color: lightgreen;
+    font-size: 40px;
+    position: relative;
+    top: 40px;
+    left: 45px;
+    margin-left: 10px;
+    margin-top: 10px;
+}

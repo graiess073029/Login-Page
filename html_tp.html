@@ -1,0 +1,64 @@
+<!DOCTYPE html >
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css_tp.css">
+    <link rel="icon" href="logo.png">
+    <title>Quicode.tn Math</title>
+</head>
+<body onkeydown=myFunction(event)>
+    <div class="main_half">
+        <div class="main_page">
+            <div class="test_form">
+                <div class="console" id="console">
+                    <p class="console_text" id="console_text"></p>
+                </div>
+                <div class="buttons_div">
+
+                    <button type="button" class="number" id="seven" onclick=Seven()>7</button>
+                    <button type="button" class="number" id="eight" onclick=Eight()>8</button>
+                    <button type="button" class="number" id="nine" onclick=Nine()>9</button>
+                    <button type="button" class="operator" id="plus" onclick=choose_3amaliya(level,5)>+</button>
+
+                    <br>
+                    <button type="button" class="number" id="four" onclick=Four()>4</button>
+                    <button type="button" class="number" id="five" onclick=Five()>5</button>
+                    <button type="button" class="number" id="six" onclick=Six()>6</button>
+                    <button type="button" class="operator" id="moin" onclick=choose_3amaliya(level,6)>-</button>
+
+                    <br>
+                    <button type="button" class="number" id="one" onclick=One()>1</button>
+                    <button type="button" class="number" id="two" onclick=Two()>2</button>
+                    <button type="button" class="number" id="three" onclick=Three()>3</button>
+                    <button type="button" class="operator" id="mult" onclick=choose_3amaliya(level,7)>×</button>
+
+                    <br>
+                    <button type="button" class="number" id="zero" onclick=Zero()>0</button>
+                    <button type="button" class="number" id="floater" onclick=Floater()>.</button>  
+                    <button type="button" class="operator" id="division" onclick=choose_3amaliya(level,8)>÷</button>  
+                    <br>
+
+                    <button type="button" class="number" id="check" onclick=verify_question()>=</button>
+                    <button type="button" class="number" id="delete" onclick=delete_last()>←</button>  
+                    <button type="button" class="operator" id="Randomly" onclick=choose_3amaliya(level,9)>R</button>  
+
+                    <br>
+                    <button type="button" class="level" id="level1" onclick=choose_3amaliya(1,window.operator_)>L1</button>
+                    <button type="button" class="level" id="level2" onclick=choose_3amaliya(2,window.operator_)>L2</button>
+                    <button type="button" class="level" id="level3" onclick=choose_3amaliya(3,window.operator_)>L3</button>
+                    <button type="button" class="level" id="level4" onclick=choose_3amaliya(4,window.operator_)>L4</button>
+                    <br>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <img src="bg.png" class="bg">
+
+<script onload=choose_3amaliya(1,9) src="js_tp.js" lang="javascript"></script>
+</body>
+</html>
